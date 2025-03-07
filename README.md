@@ -1,5 +1,7 @@
 Parte Práctica
+
 Ejercicio 1.- (5 puntos)
+
 Realizar, mediante el uso de las etiquetas HTML y CSS vistas en clase, el diseño de la
 siguiente web:
 Para ello, se deberá tener en cuenta las siguientes consideraciones:
@@ -61,7 +63,9 @@ o Tamaño: 200px de ancho y 50px de alto
 o Redondeado 5px
 o Separados del margen izquierdo: 65px
 o Separados del margen inferior (bottom): 10px
+
 Ejercicio 3.- (1 punto)
+
 Subir la web a un repositorio de Github Pages (servidor web) con el fin de poder tener
 acceso a la misma desde cualquier tipo de dispositivo con conexión a internet.
 El repositorio puede tener el nombre que se desee. 
