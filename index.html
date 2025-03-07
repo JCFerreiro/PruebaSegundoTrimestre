@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetFighter UNIR</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/arcade.png" type="image/png">
+</head>
+<body>
+    <h1>“To live is to fight, to fight is to live!</h1>
+
+    <!-- Tabla personajes -->
+    <table>
+        <tr>
+            <td id="cabecera" colspan="4">Street Fighter</td>
+        </tr>
+        <tr>
+            <td class="personaje"><span>Ken</span><img src="img/ken.png" alt="Ken"></td>
+            <td class="personaje"><span>Chun Li</span><img src="img/ChunLi.png" alt="ChunLi"></td>
+            <td class="personaje"><span>Zangief</span><img src="img/Zangief.png" alt="Zangief"></td>
+            <td class="personaje"><span>Dhalsim</span><img src="img/Dhalsim.png" alt="Dhalsim"></td>
+        </tr>
+        <tr>
+            <td class="personaje"><span>Ryu</span><img src="img/Ryu.png" alt="Ryu"></td>
+            <td class="personaje"><span>E Honda</span><img src="img/EHonda.png" alt="E Honda"></td>
+            <td class="personaje"><span>Blanka</span><img src="img/Blanka.png" alt="Blanka"></td>
+            <td class="personaje"><span>Guille</span><img src="img/Guille.png" alt="Guille"></td>
+        </tr>
+        <tr>
+            <td class="personaje"><span>T. Hawk</span><img src="img/THawk.png" alt="T. Hawk"></td>
+            <td class="personaje"><span>Feilong</span><img src="img/Feilong.png" alt="Fei Long"></td>
+            <td class="personaje"><span>Dee Jay</span><img src="img/DeeJay.png" alt="Dee Jay"></td>
+            <td class="personaje"><span>Cammy</span><img src="img/Cammy.png" alt="Cammy"></td>
+        </tr>
+        <tr>
+            <td class="personaje"><span>Balrog</span><img src="img/Balrog.png" alt="Balrog"></td>
+            <td class="personaje"><span>Vega</span><img src="img/Vega.png" alt="Vega"></td>
+            <td class="personaje"><span>Sagat</span><img src="img/Sagat.png" alt="Sagat"></td>
+            <td class="personaje"><span>M. Bison</span><img src="img/MBison.png" alt="M. Bison"></td>
+        </tr>
+    </table>
+    
+    <h2>Formulario de Inscripción para jugar a Street Fighter</h2>
+
+    <!-- Formulario de inscripción -->
+    <form>
+        <fieldset>
+            <legend>Datos Personales</legend>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+
+            <label>Dirección Postal:</label>
+            <input type="text" placeholder="Calle" required>
+            <input type="text" placeholder="N°" required>
+            <input type="text" placeholder="Piso">
+            <input type="text" placeholder="Cód. Postal" required>
+            <input type="text" placeholder="Ciudad" required>
+
+            <label for="nick">Nick:</label>
+            <input type="text" id="nick" name="nick">
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Sexo Usuario</legend>
+            
+            <label><input type="radio" name="sexo" value="hombre"> Hombre</label>
+            <label><input type="radio" name="sexo" value="mujer"> Mujer</label>
+            <label><input type="radio" name="sexo" value="no-decidir"> Prefiero No Decir</label>
+        </fieldset>
+
+        <fieldset>   
+             <label class="fecha" for="fecha_nacimiento">Fecha de Nacimiento:
+            <input type="date" id="fecha_nacimiento" name="fecha_nacimiento">
+             </label>
+        </fieldset>
+        
+         <fieldset>
+            <legend>Personajes</legend>
+            <label for="personaje">Selecciona el personaje:</label>
+            <input type="text" name="personaje">
+        </fieldset>
+
+        <fieldset>
+            <legend>Comentarios</legend>
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios"></textarea>
+        </fieldset>
+         <div class="botones">
+             <!-- Botones de enviar y borrar -->
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+            </div>
+    </form>
+</body>
+</html>

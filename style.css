@@ -1,0 +1,140 @@
+/* Estilos generales para la página */
+body {
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para los encabezados */
+h1, h2 {
+    color: crimson;
+    text-align: center;
+    font-family: Street, Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 46px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#cabecera {
+    background-image: url(img/fondocabecera.jpg);
+    background-size: cover;
+    color: whitesmoke;
+    opacity: 0.5;
+    font-size: 40px;
+    font-family: Street, Arial, Helvetica, sans-serif;
+}
+
+tr,
+td {
+    width: 40px;
+    height: 45px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+/* Estilos para los personajes de la tabla */
+.personaje {
+    width: 25%;
+    font-family: Street, Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para el texto de la tabla */
+span {
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    display: block;
+}
+
+/* Estilos para el formulario */
+form {
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    margin: auto;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Estilos para el fieldset */
+fieldset {
+    margin: 10px;
+    padding: 5px;
+}
+
+/* Estilos para las leyendas */
+legend {
+    font-family: Street, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: rgb(237, 175, 5);
+    margin: 5px;
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin: 8px;
+}
+
+/* Estilos para el textarea */
+textarea {
+    width: 560px;
+    height: 200px;
+}
+/*Para poner el input y su fecha  */
+.fecha {
+    display: flex;
+    align-items: center;
+}
+ .fecha input {
+        margin-left: 5px; 
+    }
+
+/*botones */
+.botones {
+    text-align: center;
+}
+
+.botones button {
+    display: inline-block; 
+    margin: 10px; 
+}
+/* Estilos para los botones */
+button {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: Street, Arial, Helvetica, sans-serif;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para el texto */
+@font-face {
+    font-family: Street;
+    src: url(font/street.otf);
+}
